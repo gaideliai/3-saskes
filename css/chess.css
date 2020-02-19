@@ -1,0 +1,34 @@
+/*matavimo vienetai: px, %, vh (view height), vw (view width)*/
+
+body{
+    height: 100vh;
+    background-color: aquamarine;
+}
+    .board{
+        display: inline-block;
+        width: 400px;
+        height: 400px;
+        margin-top: calc((100vh - 400px) / 2);
+        margin-left: calc((100% - 400px) / 2);
+        background-color: azure;
+        border: 10px solid brown;
+    }
+
+        .row{
+            display: inline-block;
+            width: 100%;
+            height: 25%;
+            background-color: blueviolet;
+        }
+
+            .cell{
+                display: inline-block;
+                width: 25%;
+                height:100%;
+                float: left;
+                background-color: black;
+            }
+
+                .white{
+                    background-color: white;
+                }
